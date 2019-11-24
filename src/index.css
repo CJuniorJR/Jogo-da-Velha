@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.status {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 12.5rem;
+}
+
+.square {
+  background: #fff;
+  font-size: 6rem;
+  font-weight: bold;
+  height: 10rem;
+  width: 10rem;
+}
+
+.square:focus {
+  outline: none;
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.board-row {
+  justify-content: space-between;
+}
